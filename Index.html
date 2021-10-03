@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Aliança Rebelde</title>
+        <link rel="stylesheet" href="Style.css"> 
+        <script src="Script.js"></script>
+    </head>
+    <body>
+        <header>            
+            <p>Aliança Rebelde</p>
+        </header>
+        <div class="conteudo">
+            <!--criação do Formulário-->
+            <form id="Cadastroid">
+                <h1>Dados pessoais</h1>
+                <label for="Nome">Nome:</label>
+                <input type="text" id="Nomeid" name="Nome" placeholder="Nome" required="required" maxlength="25" minlength="3"><br>
+                <label for="Planeta">Planeta:</label>
+                <input type="text" id="Planetaid" name="Planeta" placeholder="Planeta" required="required" maxlength="25" maxlength="3"><br>
+                <label for="Nascimento">Nascimento:</label>
+                <input type="date" id="Nascimentoid" name="Nacimento" placeholder="Nascimento" required="required"><br>
+                <label for="Resposta">Qual a sua motivação para entra na Aliança Rebelde?</label><br>
+                <textarea placeholder="Deixe aqui sua resposta" id="Textareaid" nome="Textarea" required="required" maxlength="300"></textarea><br>
+                <input type="submit" onclick="Enviar();" value="Enviar" id="Enviarid"/>
+            </form>
+        </div>
+    </body>
+</html>
