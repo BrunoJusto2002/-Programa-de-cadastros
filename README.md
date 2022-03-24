@@ -1,4 +1,4 @@
-# -Programa-de-cadastros
+# Programa de cadastros
 
 Projeto feito num processo celetivo de um vaga de emprego. Projeto fullstak que visa realizar cadastros de novos tripulantes para a Tropa Rebelde
 
